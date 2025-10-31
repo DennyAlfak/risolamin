@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RisolAmin - Risol Lezat dari Medan</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #fffef9;
+        margin: 0;
+        color: #333;
+      }
+      header {
+        background: linear-gradient(90deg, #f7b733, #fc4a1a);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+      }
+      header img {
+        width: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      header p {
+        font-size: 1.1em;
+      }
+      section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      h2 {
+        color: #fc4a1a;
+        border-left: 5px solid #f7b733;
+        padding-left: 10px;
+      }
+      .produk {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 20px;
+      }
+      .card {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 200px;
+      }
+      .price {
+        color: #f7b733;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      .btn {
+        background-color: #fc4a1a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background-color: #f7b733;
+      }
+      #kontak {
+        background-color: #fc4a1a;
+        color: white;
+        padding: 40px 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 50px auto;
+        max-width: 800px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      #kontak a {
+        color: #fffbe6;
+        font-weight: bold;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo risol.jpg" alt="Logo RisolAmin" />
+      <h1>RisolAmin</h1>
+      <p>
+        Lezatnya Risol Mayo & Bolognese Asli Medan – Bisa Frozen, Bisa Langsung
+        Nikmati!
+      </p>
+    </header>
+
+    <section id="produk">
+      <h2>Produk Kami</h2>
+      <div class="produk">
+        <div class="card">
+          <img src="mayo.jpg" alt="Risol Mayo" />
+          <div>
+            <h3>Risol Mayo</h3>
+            <p>
+              Isi 10 pcs – Gurih, lembut, dan creamy. Cocok untuk semua suasana.
+            </p>
+            <p class="price">Rp35.000</p>
+          </div>
+          <a href="https://shopee.co.id/risolamin" target="_blank"
+            ><button class="btn">Beli Sekarang</button></a
+          >
+        </div>
+        <div class="card">
+          <img src="bolonese.jpg" alt="Risol Bolognese" />
+          <div>
+            <h3>Risol Bolognese</h3>
+            <p>
+              Isi 10 pcs – Rasa daging dan saus bolognese nikmat, bisa disajikan
+              frozen.
+            </p>
+            <p class="price">Rp35.000</p>
+          </div>
+          <a href="https://shopee.co.id/risolamin" target="_blank"
+            ><button class="btn">Beli Sekarang</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="visimisi">
+      <h2>Visi & Misi</h2>
+      <p>
+        <strong>Visi:</strong> Menjadi pelopor risol berkualitas premium di
+        Medan yang menghadirkan kelezatan dan kehangatan dalam setiap gigitan.
+      </p>
+      <p><strong>Misi:</strong></p>
+      <ul>
+        <li>Menyajikan risol segar dan higienis dengan bahan terbaik.</li>
+        <li>
+          Meningkatkan inovasi cita rasa lokal agar bisa bersaing di pasar
+          nasional.
+        </li>
+        <li>
+          Mengembangkan jaringan penjualan online melalui Shopee dan WhatsApp.
+        </li>
+        <li>
+          Memberdayakan masyarakat lokal melalui peluang kerja dan kolaborasi
+          kuliner.
+        </li>
+      </ul>
+    </section>
+
+    <section id="tentang">
+      <h2>Mengapa Memilih RisolAmin?</h2>
+      <p>
+        Medan dikenal sebagai kota dengan kekayaan kuliner yang luar biasa. Di
+        tengah banyaknya pilihan, <strong>RisolAmin</strong> hadir membawa cita
+        rasa unik dan kualitas terbaik. Kami percaya bahwa risol bukan sekadar
+        camilan, tapi simbol kehangatan keluarga dan kebahagiaan sederhana yang
+        bisa dinikmati kapan saja.
+      </p>
+      <p>
+        Risol kami dibuat dengan resep rumahan yang dikembangkan dengan standar
+        profesional. Kami menjaga setiap proses agar tetap higienis, lezat, dan
+        siap dinikmati dalam bentuk frozen atau langsung santap. Dengan harga
+        terjangkau dan kemasan praktis, RisolAmin siap menjadi favorit warga
+        Medan!
+      </p>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak Kami</h2>
+      <p>Hubungi kami untuk pemesanan dan kerja sama:</p>
+      <p>
+        <strong>WhatsApp:</strong>
+        <a href="https://wa.me/6283171217632" target="_blank">0831-7121-7632</a>
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:aminrisol14@gmail.com">aminrisol14@gmail.com</a>
+      </p>
+      <p>
+        <strong>Shopee:</strong>
+        <a href="https://shopee.co.id/risolamin" target="_blank"
+          >shopee.co.id/risolamin</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 RisolAmin. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
